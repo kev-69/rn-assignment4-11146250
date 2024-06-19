@@ -1,7 +1,7 @@
 import { View, Text , SafeAreaView, StyleSheet, TextInput, ScrollView, TouchableOpacity, Image} from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native';
-import Home from './homescreen';
+import HomeScreen from './homescreen';
 
 const LoginScreen = () => {
   const navigation = useNavigation();
@@ -31,7 +31,7 @@ const LoginScreen = () => {
             style={styles.emailInput}
           />
         </View>
-        <TouchableOpacity style={styles.button} onPress={()=> navigation.navigate(Home)}>
+        <TouchableOpacity style={styles.button} onPress={()=> navigation.navigate(HomeScreen)}>
           <Text style={styles.login}>
             Log In 
           </Text>
@@ -54,7 +54,7 @@ const LoginScreen = () => {
             <Image source={require('../assets/google.png')}/>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image source={require('../assets/facbook.png')}/>
+            <Image source={require('../assets/facebook.png')}/>
           </TouchableOpacity>
         </View>
         <View style={styles.textbelow}>

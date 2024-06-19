@@ -25,7 +25,7 @@ const HomeScreen = () => {
            
           </View>
           <View style={{padding:10,borderRadius:10, backgroundColor: '#DDDDDD', marginTop: 40}}>
-            <Image source={require('../assets/filter99.png')}/>
+            <Image source={require('../assets/filter.png')}/>
           </View>
           
         </View>
