@@ -17,7 +17,7 @@ const popularJobs = [
     },
     {
         id: 2,
-        logo : require('../assets/facbook1.png'),
+        logo : require('../assets/facebook1.png'),
         role: 'Product Manager',
         company : 'Facebook',
         salary: '$86,000/y',
